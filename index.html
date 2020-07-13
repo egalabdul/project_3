@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Online Registration Form</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+
+<body>
+	<h1>THE CODE REVIEW</h1>
+
+	<form id="form" action="index.html" method="post">
+
+	<!-- <div class="wrapper"> -->
+	<div class="wrapper">
+	
+		<header>	
+			<div class="newsletter">
+				<h2>Signup for our newsletter</h2>
+				<p>Get the latest news on how your code is doing <br>
+				right in your inbox</p><hr class="hr1">
+			</div>
+		</header>
+		<fieldset class="information">	
+		<legend>Contact Information</legend>
+			
+			<div class="form-box">
+				<label for="name">Full Name</label><br>
+				<input type="text" id="name" name="name" placeholder="Required*"><br>
+			</div>
+
+			<div class="form-box">
+				<label for="mail">Email Address</label><br>
+				<input type="email" id="mail" name="mail" placeholder="Required*"><br>
+			</div>
+				
+
+			<div class="form-box">
+				<label for="phone">Phone Number</label><br>
+				<input type="tel" id="phone" name="phone"><br>
+			</div>
+
+			<div class="form-box">
+				<label for="address">Street Address</label><br>
+				<input type="text" id="address" name="address"><br>
+			</div>
+
+			<div class="form-box">
+				<label for="city">City</label><br>
+				<input type="text" id="city" name="city"><br>
+			</div>
+
+			<div class="form-box">
+				<label>State</label><br>
+			<select id="arrows" name="state">
+				<option value="Choose State">Choose State</option>
+				<option value="Choose State">State 1</option>
+				<option value="Choose State">State 2</option>
+				<option value="Choose State">State 3</option>
+			</select><br>
+			</div>
+
+			<div class="form-box">
+				<label for="zipcode">Zip Code</label><br>
+				<input type="text" id="zipcode" name="zipcode">			
+			</div>
+			</fieldset>
+					
+		<hr class="hr3">
+		<fieldset class="checkbox">	
+			<legend>Newsletter</legend>		
+			<p>Select the newsletter you would like to receive</p>
+			<div class="checkbox2">
+				<label for="cb1"><input type="checkbox" id="cb1" name="news" >HTML News</label><br>
+				<label for="cb2"><input type="checkbox" id="cb2" name="news" >CSS News</label><br>
+				<label for="cb3"><input type="checkbox" id="cb3" name="news" >Javascript News</label>
+			</div>
+	
+			<div class="radio">
+			<p>Newsletter format</p>
+				<label><input type="radio" name="news_format" value="Html_text">HTML</label><br>
+				<label><input type="radio" name="plain_text" value="Plain_text">Plain Text</label> 
+			</div>
+			
+		</fieldset>
+			<div class="textarea">
+				<p>Other topics you'd like to hear about</p>
+				<textarea rows="10" cols="50" id="bio" name="user_bio"></textarea>
+		 		<button type="submit">Sign Up</button>
+			</div>
+		
+			<footer>
+				&copy; The Code Review
+			</footer>
+	</div>	
+	</form>
+
+</body>
+
+</html>
+
+
+
+
